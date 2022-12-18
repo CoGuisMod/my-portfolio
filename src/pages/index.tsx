@@ -113,7 +113,7 @@ const Home: NextPage = () => {
         <title>I&#39;m Camilo Millan</title>
         <meta
           name="description"
-          content="Hey! I'm Camilo Millan and this is my personal portfolio."
+          content="This is my personal porfolio, this will tell you a little about me, my skills as a developer, some worth-mention projects that i made and how to contact me."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
