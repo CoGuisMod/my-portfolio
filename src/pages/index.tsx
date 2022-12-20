@@ -1,11 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 
-/* Images imports */
-/* import whatToDoImage from "/images/whatToDoImage.png";
-import theCinephileHouse from "/images/theCinephileHouse.png";
-import rickAndMortyImage from "/images/rickAndMortyImage.png"; */
-
 /* Components imports */
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer";
@@ -98,11 +93,11 @@ const projects = [
     projectStack: ["React JS", "Tailwind CSS", "Firebase", "Axios"],
   },
   {
-    /* projectImage: rickAndMortyImage, */
+    projectImage: "/images/rickAndMortyImage.png",
     projectTitle: "Rick and Morty Wiki",
-    projectLink: "https://rickandmortywiki-f8dc1.web.app/",
+    projectLink: "https://rick-and-morty-wiki-camilomillan.vercel.app/",
     projectDescription: "Rick and morty wiki made with the Rick And Morty API.",
-    projectStack: ["React JS", "Tailwind CSS", "Axios"],
+    projectStack: ["Next JS", "Tailwind CSS", "Fetch API", "tRPC"],
   },
 ];
 

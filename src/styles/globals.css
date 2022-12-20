@@ -7,3 +7,21 @@
 body {
   @apply bg-clr-primary-one font-poppins text-clr-primary-three;
 }
+
+.custom-shadow {
+  @apply relative;
+}
+
+.custom-shadow::before {
+  content: "";
+  box-shadow: 0 0 1rem 0.5rem #bd93f9;
+  @apply absolute left-0 right-0 top-0 bottom-0 animate-pulse rounded-3xl;
+}
+
+.project-card-parent:hover .project-card-children {
+  opacity: 100;
+}
+
+.project-card-parent:hover .project-card-children-two {
+  @apply text-clr-secondary-one;
+}
