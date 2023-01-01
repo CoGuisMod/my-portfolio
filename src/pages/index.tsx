@@ -93,7 +93,8 @@ const projects = [
     projectStack: ["React JS", "Tailwind CSS", "Firebase", "Axios"],
   },
   {
-    projectImage: "/images/rickAndMortyImage.png",
+    projectImage:
+      "https://firebasestorage.googleapis.com/v0/b/iam-camilomillan.appspot.com/o/rickAndMortyImage.PNG?alt=media&token=11f34c76-4f54-4e74-93f6-3cd8fb510f4e",
     projectTitle: "Rick and Morty Wiki",
     projectLink: "https://rick-and-morty-wiki-camilomillan.vercel.app/",
     projectDescription: "Rick and morty wiki made with the Rick And Morty API.",

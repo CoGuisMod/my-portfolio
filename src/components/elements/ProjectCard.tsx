@@ -22,11 +22,9 @@ const ProjectCard = ({ project, projectCardVariant }: projectCardType) => {
       className="project-card-parent flex flex-col overflow-hidden rounded-xl bg-clr-primary-two"
     >
       <div className="relative h-full w-full overflow-y-hidden">
-        <Image
+        <img
           src={project.projectImage}
           alt={`${project.projectTitle} app screenshot.`}
-          width="200"
-          height="200"
           className="h-full w-full object-cover"
         />
         <div className="project-card-children absolute left-0 top-0 h-full w-full bg-clr-primary-one/75 px-8 pt-4 opacity-0 transition-opacity duration-200 ease-in-out lg:pt-8">
