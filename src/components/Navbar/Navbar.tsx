@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 import NavMobile from "./NavMobile";
-import { debounce } from "../../utils/debounce";
+import { useDebounce } from "../../utils/debounce";
 
 import { HiMenu, HiX } from "react-icons/hi";
 
@@ -15,7 +15,7 @@ const Navbar = () => {
 
   const [isHidden, setIsHidden] = useState(true);
 
-  const handleScroll = debounce(() => {
+  const handleScroll = useDebounce(() => {
     const currentScrollPosition = window.scrollY;
 
     setTransparent(currentScrollPosition === 0);
