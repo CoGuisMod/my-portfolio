@@ -100,6 +100,14 @@ const projects = [
     projectDescription: "Rick and morty wiki made with the Rick And Morty API.",
     projectStack: ["Next JS", "Tailwind CSS", "Fetch API", "tRPC"],
   },
+  {
+    projectImage:
+      "https://firebasestorage.googleapis.com/v0/b/iam-camilomillan.appspot.com/o/pokepediaImage.PNG?alt=media&token=513e56a3-9e48-4666-b5e5-7cc82a8c83a1",
+    projectTitle: "Pokepedia",
+    projectLink: "https://pokepedia-camilomillan.vercel.app/",
+    projectDescription: "Pokemon wiki made with the Pokemon API",
+    projectStack: ["Next JS", "Tailwind CSS", "Fetch API"],
+  },
 ];
 
 const Home: NextPage = () => {
