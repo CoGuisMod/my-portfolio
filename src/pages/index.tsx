@@ -86,11 +86,13 @@ const projects = [
     projectStack: ["Next JS", "Tailwind CSS", "Firebase"],
   },
   {
-    /* projectImage: theCinephileHouse, */
-    projectTitle: "Netflix Clone",
-    projectLink: "https://netflixclone-a44e2.web.app/",
-    projectDescription: "Netflix UI clone that fetches the TMDB API.",
-    projectStack: ["React JS", "Tailwind CSS", "Firebase", "Axios"],
+    projectImage:
+      "https://firebasestorage.googleapis.com/v0/b/iam-camilomillan.appspot.com/o/TheCinephileHouseImage.PNG?alt=media&token=90be410e-42c5-4f3b-afb3-ea69c42f1ae5",
+    projectTitle: "The Cinephile House",
+    projectLink: "https://thecinephilehouse-camilomillan.vercel.app/",
+    projectDescription:
+      "App for making lists, add to favorites and watchlists full of movies and shows from the TMDB API.",
+    projectStack: ["Next JS", "Tailwind CSS", "Firebase", "tRPC", "Fetch API"],
   },
   {
     projectImage:
