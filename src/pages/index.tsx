@@ -78,13 +78,13 @@ const skills: Array<object> = [
 
 /* Projects data */
 const projects = [
-  {
-    /* projectImage: whatToDoImage, */
+  /* {
+    projectImage: "",
     projectTitle: "WhatToDo",
     projectLink: "https://todoapp-d0363.web.app/",
     projectDescription: "To-Do application for productivity managment.",
     projectStack: ["Next JS", "Tailwind CSS", "Firebase"],
-  },
+  }, */
   {
     projectImage:
       "https://firebasestorage.googleapis.com/v0/b/iam-camilomillan.appspot.com/o/TheCinephileHouseImage.PNG?alt=media&token=90be410e-42c5-4f3b-afb3-ea69c42f1ae5",

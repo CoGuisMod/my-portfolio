@@ -45,8 +45,8 @@ const Contact = () => {
             whileHover={{ scale: 1.15, transition: { duration: 0.1 } }}
             whileTap={{ scale: 0.95, transition: { duration: 0.1 } }}
             viewport={{ once: true }}
-            href="mailto:iam.camilomillan@gmail.com
-"
+            href="mailto:iam.camilomillan@gmail.com"
+            target="_blank"
             className="text-xl transition-colors duration-200 ease-in-out hover:text-clr-secondary-one md:text-2xl"
           >
             iam.camilomillan@gmail.com
@@ -63,6 +63,7 @@ const Contact = () => {
               whileHover={{ scale: 1.15, transition: { duration: 0.1 } }}
               whileTap={{ scale: 0.95, transition: { duration: 0.1 } }}
               href="https://www.linkedin.com/in/camilo-millan-664019232/"
+              target="_blank"
               className="text-3xl transition-colors duration-200 ease-in-out hover:text-clr-secondary-one"
             >
               <SiLinkedin />
@@ -72,6 +73,7 @@ const Contact = () => {
               whileHover={{ scale: 1.15, transition: { duration: 0.1 } }}
               whileTap={{ scale: 0.95, transition: { duration: 0.1 } }}
               href="https://github.com/CoGuisMod"
+              target="_blank"
               className="text-3xl transition-colors duration-200 ease-in-out hover:text-clr-secondary-one"
             >
               <SiGithub />
@@ -81,6 +83,7 @@ const Contact = () => {
               whileHover={{ scale: 1.15, transition: { duration: 0.1 } }}
               whileTap={{ scale: 0.95, transition: { duration: 0.1 } }}
               href="https://www.instagram.com/coguismod/"
+              target="_blank"
               className="text-3xl transition-colors duration-200 ease-in-out hover:text-clr-secondary-one"
             >
               <SiInstagram />
@@ -90,6 +93,7 @@ const Contact = () => {
               whileHover={{ scale: 1.15, transition: { duration: 0.1 } }}
               whileTap={{ scale: 0.95, transition: { duration: 0.1 } }}
               href="https://twitter.com/CoGuisMod"
+              target="_blank"
               className="text-3xl transition-colors duration-200 ease-in-out hover:text-clr-secondary-one"
             >
               <SiTwitter />
